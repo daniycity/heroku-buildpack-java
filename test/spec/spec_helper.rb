@@ -5,8 +5,8 @@ require "java-properties"
 
 # Omitting 1.7 here since most example projects used in testing are not
 # compatible with 1.7.
-OPENJDK_VERSIONS=%w(1.8 11 13 15)
-DEFAULT_OPENJDK_VERSION="1.8"
+OPENJDK_VERSIONS=%w(1.8 11 13 15 17)
+DEFAULT_OPENJDK_VERSION="17"
 
 RSpec.configure do |config|
   config.fail_if_no_examples = true
